@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding : 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display : flex ;
+    position: absolute;
+}
+body{
+    background: #41403f;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: #1f2020;
+    justify-content: center;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin-left: 35rem;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    color: #f5ca5d;
+}
+.s-heading{
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+    color : #f8d98a;
+    font-weight: 400;
+    letter-spacing: 0.1ch;
+}
+
+#otpMsg{
+    height: 50px;;
+    width:100%;
+    border-radius: 1rem;
+    border: none;
+    border : 0.5px solid  rgb(72, 72, 72);
+    background-color: rgb(72, 72, 72);
+    margin-top: 3rem;
+    margin-left: 1rem;
+    font-size : 25px;
+    text-align: center;
+    color:#f8d681;
+    letter-spacing: 0.7ch;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.box{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.btn{
+    margin: 1.5rem;
+    height:2.5rem;
+    width : 12rem;
+    background-color: #f8d681;
+    color: black;
+    border-radius: 8px;
+    border : none;
+    font-size: 1rem;
+    justify-content: center;
+    margin-left: 7rem;
+    margin-top: 4rem;
+    border: 1px solid  #E2F1E7;
+    cursor: pointer;
+}
+
+.alert{
+    color :#f8d681;
+    font-weight:unset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn2{
+    margin: 1.5rem;
+    height:2.5rem;
+    width : 20rem;
+    background-color: #f4d585;
+    color: black;
+    border-radius: 8px;
+    border : none;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-left: 3rem;
+    border: 1px solid  #E2F1E7;
+}
+.btn2:hover{
+    background-color: aliceblue;
+    transition: 0.3s ease-in-out;
+    border: 1.5px solid  #f8d681;
+}
+
