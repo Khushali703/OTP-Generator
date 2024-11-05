@@ -14,7 +14,7 @@ function generateOtp() {
                  Math.floor (Math.random() * 10 )+""+
                  Math.floor (Math.random() * 10 );
     
-    alert("Yur otp is generated successfully !"); // create the get otp alert
+    alert("Your otp is generated successfully !"); // create the get otp alert
     otpMsg.innerText = OTP;
 }
 btn.addEventListener('click', ()=>{
